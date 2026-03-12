@@ -1,0 +1,9 @@
+[extension]
+default = "pg_aim"
+module_path = "pg_aim"
+
+pg_config = "/usr/pgsql-18/bin/pg_config"
+
+[pgrx]
+pg18 = true
+

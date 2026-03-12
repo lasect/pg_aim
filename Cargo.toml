@@ -1,0 +1,20 @@
+[package]
+name = "pg_aim"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[[bin]]
+name = "pgrx_embed_pg_aim"
+path = "src/main.rs"
+
+[features]
+default = ["pg16"]
+pg16 = ["pgrx/pg16"]
+pg17 = ["pgrx/pg17"]
+pg_test = []
+
+[dependencies]
+pgrx = { version = "0.12.9" }

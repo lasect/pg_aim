@@ -1,0 +1,4 @@
+sql/
+pgx-tests/
+*.so
+target
